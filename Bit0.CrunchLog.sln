@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutuin Files", "Solutuin Files", "{EF9D6863-CD22-4552-B57F-A5E4A34D7D2D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		Common.props = Common.props
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+		Solution.props = Solution.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{D29FDA8C-D09F-48FC-9CDD-EF0E2C63AFC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bit0.CrunchLog", "src\core\Bit0.CrunchLog\Bit0.CrunchLog.csproj", "{16BBAFC1-D600-4418-A2E7-87062C2E63A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bit0.CrunchLog.Cli", "src\core\Bit0.CrunchLog.Cli\Bit0.CrunchLog.Cli.csproj", "{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bit0.CrunchLog.Sdk", "src\core\Bit0.CrunchLog.Sdk\Bit0.CrunchLog.Sdk.csproj", "{7929E737-0129-473B-8DF8-6FB572A5AAA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{79C4882D-64C3-417F-9FF1-ECA8E6FE431D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{6F135968-65C5-4880-B796-BA9F7181323D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\sdk.yml = .github\workflows\sdk.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BBAFC1-D600-4418-A2E7-87062C2E63A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BBAFC1-D600-4418-A2E7-87062C2E63A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BBAFC1-D600-4418-A2E7-87062C2E63A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BBAFC1-D600-4418-A2E7-87062C2E63A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7929E737-0129-473B-8DF8-6FB572A5AAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7929E737-0129-473B-8DF8-6FB572A5AAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7929E737-0129-473B-8DF8-6FB572A5AAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7929E737-0129-473B-8DF8-6FB572A5AAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16BBAFC1-D600-4418-A2E7-87062C2E63A5} = {D29FDA8C-D09F-48FC-9CDD-EF0E2C63AFC8}
+		{23EA8BF5-E80A-4FDA-9116-AC9B5A92DCF8} = {D29FDA8C-D09F-48FC-9CDD-EF0E2C63AFC8}
+		{7929E737-0129-473B-8DF8-6FB572A5AAA1} = {D29FDA8C-D09F-48FC-9CDD-EF0E2C63AFC8}
+		{79C4882D-64C3-417F-9FF1-ECA8E6FE431D} = {EF9D6863-CD22-4552-B57F-A5E4A34D7D2D}
+		{6F135968-65C5-4880-B796-BA9F7181323D} = {79C4882D-64C3-417F-9FF1-ECA8E6FE431D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {995072CA-4DE4-43A6-AFB0-293E8B4244C8}
+	EndGlobalSection
+EndGlobal

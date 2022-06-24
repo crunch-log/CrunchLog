@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Bit0.CrunchLog\Bit0.CrunchLog.csproj" />
+  </ItemGroup>
+  
+  <Import Project="..\..\..\Solution.props" />
+  <Import Project="..\..\..\Common.props" />
+
+</Project>
